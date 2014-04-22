@@ -3,6 +3,9 @@
 ## locations in the code, it is better to compute the inverse once 
 ## and cache it, and use the cached inverse later.
 ## A pair of functions that cache the inverse of a matrix follows.
+## This code is based on the "Caching the Mean of a Vector"
+## provided by Coursera R Programming Course by Roger D. Peng
+## 
 ## Example how to use:
 ## > zzmat <- matrix(c(1,0,5,2,1,6,3,4,0), nrow=3)
 ## > zzSpecMat <- makeCacheMatrix()
